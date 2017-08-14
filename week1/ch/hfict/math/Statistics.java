@@ -1,3 +1,4 @@
+package ch.hfict.math;
 public class Statistics{
  private double [] numbers = null;
  private int last = 0;

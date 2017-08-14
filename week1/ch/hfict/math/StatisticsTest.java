@@ -1,3 +1,5 @@
+package ch.hfict.math;
+
 public class StatisticsTest{
 
  public static void main (String [] args){
