@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+		<BFSStatistics>
+
+			<titel>
+				<name>TIT1</name>
+				<bezeichung>
+					<name>Bez1</name>
+					<jahr>
+						<name>2011</name>
+						<wert>value123</wert>
+					</jahr>
+				</bezeichung>
+
+				<bezeichung>
+					<name>Bez1</name>
+					<jahr>
+						<name>2011</name>
+						<wert>value123</wert>
+					</jahr>
+				</bezeichung>
+
+				<bezeichung>
+					<name>Bez1</name>
+					<jahr>
+						<name>2011</name>
+						<wert>value123</wert>
+					</jahr>
+				</bezeichung>
+
+				<bezeichung>
+					<name>Bez1</name>
+					<jahr>
+						<name>2011</name>
+						<wert>value123</wert>
+					</jahr>
+				</bezeichung>
+			</titel>
+
+			<titel>
+				<name>TIT2</name>
+				<bezeichung>
+					<name>Bez1</name>
+					<jahr>
+						<name>2011</name>
+						<wert>value123</wert>
+					</jahr>
+				</bezeichung>
+
+				<bezeichung>
+					<name>Bez1</name>
+					<jahr>
+						<name>2011</name>
+						<wert>value123</wert>
+					</jahr>
+				</bezeichung>
+
+				<bezeichung>
+					<name>Bez1</name>
+					<jahr>
+						<name>2011</name>
+						<wert>value123</wert>
+					</jahr>
+				</bezeichung>
+
+			</titel>
+
+			<titel>
+				<name>TIT3</name>
+
+				<bezeichung>
+					<name>Bez1</name>
+					<jahr>
+						<name>2011</name>
+						<wert>value123</wert>
+					</jahr>
+				</bezeichung>
+
+				<bezeichung>
+					<name>Bez1</name>
+					<jahr>
+						<name>2011</name>
+						<wert>value123</wert>
+					</jahr>
+				</bezeichung>
+
+				<bezeichung>
+					<name>Bez1</name>
+					<jahr>
+						<name>2011</name>
+						<wert>value123</wert>
+					</jahr>
+				</bezeichung>
+
+				<bezeichung>
+					<name>Bez1</name>
+					<jahr>
+						<name>2011</name>
+						<wert>value123</wert>
+					</jahr>
+				</bezeichung>
+
+				<bezeichung>
+					<name>Bez1</name>
+					<jahr>
+						<name>2011</name>
+						<wert>value123</wert>
+					</jahr>
+				</bezeichung>
+
+				<bezeichung>
+					<name>Bez1</name>
+					<jahr>
+						<name>2011</name>
+						<wert>value123</wert>
+					</jahr>
+				</bezeichung>
+
+				<bezeichung>
+					<name>Bez1</name>
+					<jahr>
+						<name>2011</name>
+						<wert>value123</wert>
+					</jahr>
+				</bezeichung>
+
+			</titel>
+
+			<titel>
+				<name>TIT4</name>
+				<bezeichung>
+					<name>Bez1</name>
+					<jahr>
+						<name>2011</name>
+						<wert>value123</wert>
+					</jahr>
+				</bezeichung>
+
+				<bezeichung>
+					<name>Bez1</name>
+					<jahr>
+						<name>2011</name>
+						<wert>value123</wert>
+					</jahr>
+				</bezeichung>
+
+			</titel>
+		</BFSStatistics>
+	</xs:schema>
+	
+
+<!--
+titel = 
+	xsd: string
+	element bezeichnung {
+		xsd: string,
+		element year {
+			xsd: string,
+			element val { xsd: integer}
+		}
+		element year {
+			xsd: string,
+			element val { xsd: integer}
+		}
+		element year {
+			xsd: string,
+			element val { xsd: integer}
+		}
+		element year {
+			xsd: string,
+			element val { xsd: integer}
+		}
+	}
+-->
+<!--
+titel = 
+	xsd: string,
+	element bezeichnung {
+		xsd: string,
+		element years { YEARS }
+	},
+	element bezeichnung {
+		xsd: string,
+		element years { YEARS }
+	},
+	element bezeichnung {
+		xsd: string,
+		element years { YEARS }
+	},
+	element bezeichnung {
+		xsd: string,
+		element years { YEARS }
+	}
+
+YEARS =
+	xsd: date,
+	element val { xsd: integer },
+	xsd: date,
+	element val { xsd: integer },
+	xsd: date,
+	element val { xsd: integer }
+
+-->

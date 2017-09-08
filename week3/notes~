@@ -1,0 +1,10 @@
+protokoll 01.09.2017
+Cedric Regenass
+
+- XML = eXtensible Markup Language
+- ist baumfoermig strukturiert
+- kann benutzerdefinierte Elemente haben <zeichnung> </zeichnung>
+- Sprache in Software umsetzen. Vermeidung von kryptische namensgebung
+- XML hat immer EIN "ROOT ELEMENT"
+- case sensitive
+- XML Sollte eine XML-Deklaration haben <?xml version="1.0" encoding="UTF-8" standalone="yes/no"/>

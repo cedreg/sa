@@ -1,0 +1,20 @@
+protokoll 01.09.2017
+Cedric Regenass
+
+- XML = eXtensible Markup Language
+- ist baumfoermig strukturiert
+- kann benutzerdefinierte Elemente haben <zeichnung> </zeichnung>
+- Sprache in Software umsetzen. Vermeidung von kryptische namensgebung
+- XML hat immer EIN "ROOT ELEMENT"
+- case sensitive
+- XML Sollte eine XML-Deklaration haben <?xml version="1.0" encoding="UTF-8" standalone="yes/no" ?>
+- Kommentare wie bei HTML <!-- -->
+- ausschalten des Parsers <logic><![CDATA[ if max < min then print 'ok' ]]></logic>
+- ? = kann / * = muss (titel? (line | kreis) *)
+ <!ELEMENT zeichnung (titel? (line | kreis)* )>
+- namespaces wie in C++ ABER NUR MIT EINEM : zusätzlich muss dass Attribut "xlmns" gebraucht werden
+ ( <z:zeichnung xmlns:z="http://hfict.ch/zeichnung"> )
+- complexType = verschachtelter Typ
+
+- AUFGABE
+  xml datei fuer das BFS.admin.ch ueber energie
