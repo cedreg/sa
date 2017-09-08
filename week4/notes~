@@ -1,0 +1,16 @@
+protokoll 08.09.2017
+Cedric Regenass
+
+- svg +- gleich aufgebaut wie XML
+- gibt std-tags, welche dann interpretiert werden
+- optionaler ID-Tag (gleich wie bei html)
+- xlink:href="path/a.jpg" xlink ist w3 standard für referenzierungen
+- <text> tag für text, sehr viele attribute
+- <ellipse> oder andere <formen> sind entsprechende geometrische fromen
+- <animate> für animation, braicht aber den "ID-TAG" des elementes
+- svg hat einen <script> tag, welches java script ausführen kann
+<script type="text/emacsscript>
+<![CDATA[ function meldung(msg{ alert(msg) }; ]]>
+</script>
+
+- man kann also in einem svg, wie bei html, ein bereich als button markieren und dort dann onclick events erstellen
