@@ -1,0 +1,11 @@
+Protokoll 15.09.2017
+Cedric Regenass
+
+- Hausaufgabe: BFS Statistik als SVG-Balkendiagramm
+
+- SVG = Linien, Bilder, Text // JEDES Bild besteht aus diesen Elementen
+- GrundFormen:
+	line
+	circle
+	rect
+- 
