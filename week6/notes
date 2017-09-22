@@ -1,0 +1,8 @@
+protokoll 22.09.2017
+Cedric Regenass
+
+- repetieren der unterlagen von SA... für prüfung
+- xpath = adressierung der Nodes on einem XML-Dokument
+  <xsl:template match="/child::zeichnung/child::line[position()=2]"
+		root = / kind = child::zeichung kind = child::line
+- aufgaben 8.5 lösen auf montag
